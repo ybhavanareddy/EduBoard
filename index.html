@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBoard-A Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="hamburger"><i class="fas fa-bars"></i></label>
+<!--Sidebar Navigation-->
+    <aside class="sidebar">
+        <h2 class = "logo">EduBoard</h2>
+        <nav class="nav-links">
+            <a href="#dashboard">Dashboard</a>
+            <a href="#subjects">Subjects</a>
+            <a href="#">Attendance </a>
+            <a href="#profile">Profile</a>
+            <a href="#">Settings</a>
+        </nav>
+    </aside>
+<!--Main Content-->
+    <div class="main-wrapper">
+        <!--Top Header Navbar-->
+        <header class="top-navbar">
+            <div class="student-info">
+                <img src="assets/images/avatar.png" alt="Student Avatar" class="avatar"/>
+                <span class="student-name">Bhavana Yatham</span>
+            </div>
+            <div class="notifications">
+                <li class="fas fa-bell"></li>
+            </div>
+        </header>
+<!--Main Dashboard Content-->
+    <main class="dashboard-main">
+        <div class="main-content">
+        <!-- Student Overview Cards-->
+            <section id="dashboard" class="overview-cards">
+                <article class="card">
+                    <h3>Daily Coding</h3>
+                    <p>📈 3/5 Problems Solved</p>
+                </article>
+                <article class="card">
+                    <h3>DSA Streak - Leetcode</h3>
+                    <p>🔥 7-Day Streak</p>
+                </article>
+                <article class="card">
+                    <h3>Projects Completed</h3>
+                    <p>🎯 10 Live Projects</p>
+                </article>
+                <article class="card">
+                    <h3>Github Activity</h3>
+                    <p>🌱 1 Contributions Daily</p>
+                </article>
+            </section>
+        <!--Progress Table Section-->
+            <section id ="subjects" class="progress-table">
+                <h2>Subject Progress</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skills</th>
+                            <th>Progress</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML & CSS</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="fill" style="width:95%">
+                                        <span class="progress-text">95%</span>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Javascript</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="fill" style="width:89%">
+                                        <span class="progress-text">89%</span>
+                                    </div>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Reactjs</td>
+                                <td>
+                                    <div class="progress-bar">
+                                        <div class="fill" style="width:50%">
+                                            <span class="progress-text">50%</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SQL</td>
+                                <td>
+                                    <div class="progress-bar">
+                                        <div class="fill" style="width:90%">
+                                            <span class="progress-text">90%</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Nodejs</td>
+                                <td>
+                                    <div class="progress-bar">
+                                        <div class="fill" style="width:75%">
+                                            <span class="progress-text">75%</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td>
+                                    <div class="progress-bar">
+                                        <div class="fill" style="width:88%">
+                                            <span class="progress-text">88%</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Git & Github</td>
+                                <td>
+                                    <div class="progress-bar">
+                                        <div class="fill" style="width:95%">
+                                            <span class="progress-text">95%</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>DSA</td>
+                                <td>
+                                    <div class="progress-bar">
+                                        <div class="fill" style="width:30%">
+                                            <span class="progress-text">30%</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                </table>          
+            </section>
+        <!--Upcoming Deadlines Section-->
+            <section class="deadlines">
+                <h2>Upcoming Deadlines</h2>
+                <ul class="deadline-list">
+                    <li>
+                        <span class="date-badge">30 Jul</span>
+                        Complete one project using HTMl & CSS
+                    </li>
+                    <li>
+                        <span class="date-badge">10 Aug</span>
+                        Complete JavaScript DOM mini-project
+                    </li>
+                    <li>
+                        <span class="date-badge">20 Aug</span>
+                        Finish SQL Basic queries practice set
+                    </li>
+                    <li>
+                        <span class="date-badge">02 Sep</span>
+                        Wrap up Python OOP & file handling
+                    </li>
+                    <li>
+                        <span class="date-badge">10 Sep</span>
+                        Build a Node.js backend for a basic app
+                    </li>
+                    <li>
+                        <span class="date-badge">20 Sep</span>
+                        Host projects using Git & GitHub
+                    </li>
+                    <li>
+                        <span class="date-badge">29 Sep</span>
+                        Complete React.js component tasks
+                    </li>
+                    <li>
+                        <span class="date-badge">30 Oct</span>
+                        Complete Basic DSA Problems
+                    </li>
+
+                </ul>
+            </section>
+        </div>
+    <!--Student Profile Card-->
+        
+            <aside id="profile" class="profile-card">
+                <img src="assets/images/avatar.png" alt="Profile" class="profile-pic"/>
+                <h3>Bhavana Yatham</h3>
+                <p>bhavanayatham83@gmail.com</p>
+                <hr/>
+                <ul class="profile-info">
+                    <li><strong>Roll No:</strong>R190379</li>
+                    <li><strong>College:</strong>IIIT RGUKT RK Valley</li>
+                    <li><strong>Department:</strong>ECE</li>
+                </ul>
+            </aside>
+        
+    </main>
+</div>
+</body>
+</html>
