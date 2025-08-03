@@ -45,8 +45,8 @@ Live Link : https://ybhavanareddy.github.io/EduBoard/
 EduBoard/
 │
 ├── assets/
-│   └── images/
-│       └── avatar.png
+│ └── images/
+│ └── avatar.png
 ├── index.html
 ├── style.css
 └── README.md
