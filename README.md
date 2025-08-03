@@ -39,16 +39,18 @@ Designed to work seamlessly on all devices:
   - Media queries for full responsiveness
 - **Font Awesome** – for icons.
 
+Live Link : https://ybhavanareddy.github.io/EduBoard/
 ## 📁 Folder Structure
 
 EduBoard/
 │
 ├── assets/
-│ └── images/
-│ └── avatar.png
+│   └── images/
+│       └── avatar.png
 ├── index.html
 ├── style.css
 └── README.md
+
 
 
 ## 🧪 Accessibility
