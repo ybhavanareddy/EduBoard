@@ -47,9 +47,9 @@ EduBoard/
 
 ├── assets/
 
-│ └── images/
-
-│ └── avatar.png
+  │ └── images/
+  
+  │ └── avatar.png
 
 ├── index.html
 
